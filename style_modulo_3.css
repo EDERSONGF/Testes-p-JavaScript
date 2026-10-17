@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  color: white;
+}
+
+nav {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+      }
+.div-nav {
+  display: flex;
+  align-items: center;
+  margin: 22px 0 50px 0;
+  gap: 100px;
+}
+img {
+  width: 350px;
+  display: block;
+  margin: 10px auto;
+}
+.logo-sorteador {
+  width: 120px;
+  display: block;
+  margin: 10px auto;
+}
+
+.tittle-name-footer {
+  font-size: 22px;
+  text-align: center;
+  /* color: #f4f4f4; */
+}
+
+.tittle-name-footer::before {
+  content: "<";
+}
+.tittle-name-footer::after {
+  content: "/>";
+  margin-left: 6px;
+}
+#text-footer-resgister {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 23px auto 0;
+  font-size: 14px;
+}
