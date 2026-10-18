@@ -7,9 +7,15 @@
 }
 body {
   width: 100vw;
-  height: 100vh;
+  height: 100dvh;
   background-color: black;
   color: white;
+}
+
+.logo-sorteador {
+  width: 120px;
+  display: block;
+  margin: 10px auto;
 }
 
 nav {
@@ -29,11 +35,20 @@ img {
   display: block;
   margin: 10px auto;
 }
-.logo-sorteador {
-  width: 120px;
-  display: block;
-  margin: 10px auto;
+
+main{
+    display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 50px 0 50px 0;
+  gap: 20px;
 }
+
+label{
+  display: inline-flex;
+  gap: 18px
+}
+
 
 .tittle-name-footer {
   font-size: 22px;
